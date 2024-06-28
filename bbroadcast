@@ -1,0 +1,12 @@
+#!/sbin/openrc-run
+
+command="/media/mmcblk0p1/matt/bbroadcast.clj"
+output_log="/root/bbroadcast.log"
+error_log="/root/bbroadcast.error.log"
+
+command_background="true"
+pidfile="/run/bbroadcast.pid"
+
+depend() {
+ need net
+}
