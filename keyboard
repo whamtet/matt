@@ -1,0 +1,12 @@
+#!/sbin/openrc-run
+
+command="/media/mmcblk0p1/matt/keyboard.sh"
+output_log="/root/keyboard.log"
+error_log="/root/keyboard.error.log"
+
+command_background="true"
+pidfile="/run/keyboard.pid"
+
+depend() {
+ need bluetooth
+}
