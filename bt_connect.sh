@@ -10,11 +10,11 @@ send_user "\nSleeping\r"
 sleep 10
 send_user "\nDone sleeping\r"
 send "trust $address\r"
-sleep 1
+sleep 2
 send "pair $address\r"
-sleep 1
+sleep 2
 send "connect $address\r"
-sleep 1
+sleep 2
 send_user "\nShould be paired now.\r"
 send "quit\r"
 expect eof
