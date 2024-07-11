@@ -1,2 +1,2 @@
 apk add libusb-dev libplist-dev libimobiledevice-dev
-./usbmuxd
+$(dirname $0)/usbmuxd
