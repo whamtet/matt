@@ -1,4 +1,4 @@
-apk add bluez
+apk add bluez expect
 modprobe btusb
-cp /media/mmcblk0p1/matt/input.conf /etc/bluetooth
+cp $(dirname $0)/input.conf /etc/bluetooth
 service bluetooth start
