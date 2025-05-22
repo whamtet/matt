@@ -8,7 +8,7 @@ mkdir -p /usr/share/webapps/
 cd /usr/share/webapps/
 wget https://wordpress.org/latest.tar.gz
 
-tar -xzqf latest.tar.gz
+tar -xzf latest.tar.gz
 rm latest.tar.gz
 chown -R lighttpd /usr/share/webapps/
 
