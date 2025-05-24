@@ -1,0 +1,13 @@
+qemu-system-aarch64 \
+  -M virt \
+  -cpu cortex-a72 \
+  -m 3072 \
+  -bios /opt/homebrew/share/qemu/edk2-aarch64-code.fd \
+  -nographic \
+  -device usb-ehci,id=ehci \
+  -device usb-storage,drive=usbstick \
+  -drive if=none,file=alpine-usb2.img,format=raw,id=usbstick \
+  -cdrom alpine-standard-3.21.3-aarch64.iso \
+  -netdev user,id=net0,hostfwd=tcp::2222-:22,hostfwd=tcp::1234-:80 \
+  -device virtio-net-device,netdev=net0 \
+  -accel hvf
