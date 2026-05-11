@@ -1,4 +1,4 @@
-apk add lighttpd composer fcgi php83-cgi
+apk add lighttpd composer fcgi php83-cgi php83-ctype
 cp $(dirname $0)/lighttpd.conf /etc/lighttpd
 apk add wget mysql mysql-client php83-mysqli
 ln -s /usr/bin/php-cgi83 /usr/bin/php-cgi
