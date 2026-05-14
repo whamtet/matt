@@ -13,7 +13,8 @@ tar -xzf latest.tar.gz
 rm latest.tar.gz
 chown -R lighttpd /usr/share/webapps/
 
-ln -s /usr/share/webapps/wordpress/ /var/www/localhost/htdocs/wordpress
+rmdir /var/www/localhost/htdocs
+ln -s /usr/share/webapps/wordpress/ /var/www/localhost/htdocs
 
 /usr/bin/mysql_install_db --user=mysql
 /etc/init.d/mariadb setup
@@ -22,4 +23,4 @@ rc-service mariadb start
 
 mysql -u root -ppassword < $(dirname $0)/wp.sql
 
-echo '<?php phpinfo();' > /var/www/localhost/htdocs/index.php
+echo '<?php phpinfo();' > /var/www/localhost/htdocs/index2.php
