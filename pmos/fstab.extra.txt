@@ -1,0 +1,2 @@
+UUID=67b4cac9-bcf1-4cf0-9944-4f1709bf25f2  /home  ext4  defaults  0  2
+/home/var-cache  /var/cache  none  bind  0 0
