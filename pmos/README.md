@@ -11,3 +11,5 @@ Then edit fstab and restart
 Also, can delete internationalization
 
     doas rm -rf /usr/share/locale/*
+
+If you cannot flash images in fastboot try rebooting fastboot from fastboot so that it starts in user mode.
