@@ -13,3 +13,11 @@ Also, can delete internationalization
     doas rm -rf /usr/share/locale/*
 
 If you cannot flash images in fastboot try rebooting fastboot from fastboot so that it starts in user mode.
+
+## adjusting nftables
+
+    vim /etc/nftables.d/50_sshd.nft
+
+add the line
+
+    tcp dport 7681 accept comment "accept ttyd"
