@@ -1,0 +1,10 @@
+# ~/.chawan/config.toml 
+
+# Make Ctrl-K use DuckDuckGo Lite
+[page]
+'C-k' = '() => pager.load("ddg:")'
+
+# DuckDuckGo Lite search rule
+[omnirule.ddg]
+match = '^ddg:'
+substitute-url = '(x) => "https://lite.duckduckgo.com/lite/?kp=-1&kd=-1&q=" + encodeURIComponent(x.split(":").slice(1).join(":"))'

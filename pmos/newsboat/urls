@@ -1,0 +1,54 @@
+# General news & current affairs
+https://www.propublica.org/feeds/propublica/main "~Propublica"
+https://theconversation.com/global/articles.atom "~TheConversation"
+
+# Politics & policy
+https://www.eff.org/rss/updates.xml "~EFF"
+https://www.schneier.com/feed/atom/ "~Schneier"
+
+# Technology
+https://jvns.ca/atom.xml "~JVNS"
+https://danluu.com/atom.xml "~DanLuu"
+https://nullprogram.com/feed/ "~NullProgram"
+https://apenwarr.ca/log/rss.php "~ApenWarr"
+https://research.swtch.com/feed.atom "~Swtch"
+https://xeiaso.net/blog.rss "~Xeiaso"
+
+# Linux & open source
+https://lwn.net/headlines/rss "~Lwn"
+https://planet.debian.org/rss20.xml "~DebianPlanet"
+
+# Science
+https://www.quantamagazine.org/feed/ "~QuantaMagazine"
+https://nautil.us/feed/ "~Nautil.us"
+
+# Economics & society
+https://www.noahpinion.blog/feed "~Noahpinion"
+https://www.slowboring.com/feed "~SlowBoring"
+
+# Economics
+https://marginalrevolution.com/feed "~MarginalRevolution"
+https://feeds.feedburner.com/CalculatedRisk "~CalculatedRisk"
+
+# Science
+https://www.astralcodexten.com/feed "~AstralCodexTen"
+https://www.experimental-history.com/feed "~ExperimentalHistory"
+
+# Security
+https://blog.torproject.org/rss.xml "~TorProject"
+https://krebsonsecurity.com/feed/ "~Krebs"
+
+# History
+https://acoup.blog/feed/ "~ACOUP"
+
+# Technology
+https://blog.codinghorror.com/rss/ "~CodingHorror"
+
+# Systems & infrastructure
+https://tailscale.com/blog/index.xml "~Tailscale"
+https://www.brendangregg.com/blog/rss.xml "~BrendanGregg"
+
+# Computing history
+https://computer.rip/rss.xml "~ComputerRip"
+https://www.righto.com/feeds/posts/default "~Righto"
+https://www.filfre.net/feed/ "~Filfre"
