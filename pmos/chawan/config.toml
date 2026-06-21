@@ -11,4 +11,4 @@ substitute-url = '(x) => "https://lite.duckduckgo.com/lite/?kp=-1&kd=-1&q=" + en
 
 [buffer]
 scripting = true
-cookie = true
+cookie = "save"
