@@ -13,7 +13,9 @@
   [i (:normalized titles) description extract (-> content_urls :desktop :page)])
 
 (defn get-article [i]
-  (-> (http/get url)
+  (-> (http/get url
+                {:headers {"User-Agent"
+                           "RandomWikiFetcher/1.0 (mailto:whamtet@gmail.com)"}})
       :body
       (json/parse-string true)
       (->> (key-info i))))
